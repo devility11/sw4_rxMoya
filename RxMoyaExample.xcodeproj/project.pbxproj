@@ -13,6 +13,7 @@
 		722DF6F91F9FE9EB00B2B699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722DF6F71F9FE9EB00B2B699 /* Main.storyboard */; };
 		722DF6FB1F9FE9EB00B2B699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 722DF6FA1F9FE9EB00B2B699 /* Assets.xcassets */; };
 		722DF6FE1F9FE9EB00B2B699 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722DF6FC1F9FE9EB00B2B699 /* LaunchScreen.storyboard */; };
+		724E7A621FA5FE960066EB9D /* GithubEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724E7A611FA5FE960066EB9D /* GithubEndpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		722DF6FA1F9FE9EB00B2B699 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		722DF6FD1F9FE9EB00B2B699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		722DF6FF1F9FE9EB00B2B699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		724E7A611FA5FE960066EB9D /* GithubEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubEndpoint.swift; sourceTree = "<group>"; };
 		B29BE5E98C953FB2B4A9C78E /* Pods-RxMoyaExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMoyaExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxMoyaExample/Pods-RxMoyaExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 				722DF6FA1F9FE9EB00B2B699 /* Assets.xcassets */,
 				722DF6FC1F9FE9EB00B2B699 /* LaunchScreen.storyboard */,
 				722DF6FF1F9FE9EB00B2B699 /* Info.plist */,
+				724E7A611FA5FE960066EB9D /* GithubEndpoint.swift */,
 			);
 			path = RxMoyaExample;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				722DF6F61F9FE9EB00B2B699 /* ViewController.swift in Sources */,
+				724E7A621FA5FE960066EB9D /* GithubEndpoint.swift in Sources */,
 				722DF6F41F9FE9EB00B2B699 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
